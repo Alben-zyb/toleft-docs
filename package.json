@@ -4,7 +4,7 @@
   "description": "use vuepress to record personal knowledge",
   "main": "index.js",
   "repository": "git@github.com:turleft/turleft-docs.git",
-  "author": "zyb <zhengyb@pvc123.com>",
+  "author": "turleft",
   "license": "MIT",
   "scripts": {
     "dev": "vuepress dev docs",

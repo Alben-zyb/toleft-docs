@@ -14,7 +14,7 @@ features: # 可选的
     imgUrl: /img/web.png # 可选
   - title: 后端
     details: java/php/go 后端服务相关技术
-    link: /ui/
+    link: /backend/
     imgUrl: /img/more.png
   - title: 技术
     details: 技术文档、教程、技巧、总结等文章

@@ -7,6 +7,7 @@ import { VdoingThemeConfig } from 'vuepress-theme-vdoing/types'
 import dayjs from 'dayjs'
 import baiduCode from './config/baiduCode' // 百度统计hm码
 import htmlModules from './config/htmlModules' // 自定义插入的html块
+import sidebar from './config/sidebar' // 自定义侧边栏
 
 export default defineConfig4CustomTheme<VdoingThemeConfig>({
   theme: 'vdoing', // 使用npm主题包
@@ -34,7 +35,9 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           {
             text: '前端文章',
             items: [
-              { text: 'JavaScript', link: '/pages/8143cc480faf9a11/' },
+              { text: 'HTML', link: '/pages/8309a5b876fc95e3/' },
+              { text: 'CSS', link: '/pages/c8f128/' },
+              { text: 'JavaScript', link: '/pages/a61298/' },
             ],
           },
           {
@@ -63,6 +66,18 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
               },
             ],
           },
+        ],
+      },
+      {
+        text: '后端',
+        link: '/backend/',
+        items: [
+          { text: '技术文档', link: '/pages/9a7ee40fc232253e/' },
+          { text: 'GitHub技巧', link: '/pages/4c778760be26d8b3/' },
+          { text: 'Nodejs', link: '/pages/117708e0af7f0bd9/' },
+          { text: 'HTML', link: '/pages/8309a5b876fc95e3/' },
+          { text: 'CSS', link: '/pages/0a83b083bdf257cb/' },
+          { text: '博客搭建', link: '/pages/41f87d890d0a02af/' },
         ],
       },
       {
@@ -140,7 +155,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
     // 文章默认的作者信息，(可在md文件中单独配置此信息) string | {name: string, link?: string}
     author: {
-      name: 'zhengyibin', // 必需
+      name: 'turleft', // 必需
       link: 'https://github.com/turleft/turleft-docs', // 可选的
     },
 
@@ -183,7 +198,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     // 扩展自动生成frontmatter。（当md文件的frontmatter不存在相应的字段时将自动添加。不会覆盖已有的数据。）
     extendFrontmatter: {
       author: {
-        name: 'zhengyibin',
+        name: 'turleft',
         link: 'https://github.com/turleft/turleft-docs'
       }
     },
