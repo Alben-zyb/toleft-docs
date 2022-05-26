@@ -71,24 +71,16 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         text: '后端',
         link: '/backend/',
         items: [
-          { text: '技术文档', link: '/pages/9a7ee40fc232253e/' },
-          { text: 'GitHub技巧', link: '/pages/4c778760be26d8b3/' },
-          { text: 'Nodejs', link: '/pages/117708e0af7f0bd9/' },
-          { text: 'HTML', link: '/pages/8309a5b876fc95e3/' },
-          { text: 'CSS', link: '/pages/0a83b083bdf257cb/' },
-          { text: '博客搭建', link: '/pages/41f87d890d0a02af/' },
+          { text: 'java', link: '/pages/91975a/' },
+          { text: 'php', link: '/pages/bd17a3/' },
+          { text: 'go', link: '/pages/117708e0af7f0bd9/' },
         ],
       },
       {
         text: '技术',
         link: '/technology/',
         items: [
-          { text: '技术文档', link: '/pages/9a7ee40fc232253e/' },
-          { text: 'GitHub技巧', link: '/pages/4c778760be26d8b3/' },
-          { text: 'Nodejs', link: '/pages/117708e0af7f0bd9/' },
-          { text: 'HTML', link: '/pages/8309a5b876fc95e3/' },
-          { text: 'CSS', link: '/pages/0a83b083bdf257cb/' },
-          { text: '博客搭建', link: '/pages/41f87d890d0a02af/' },
+          { text: 'docker', link: '/pages/f305c4/' }
         ],
       },
       {
