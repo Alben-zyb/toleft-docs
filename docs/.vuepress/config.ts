@@ -80,7 +80,9 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         text: '技术',
         link: '/technology/',
         items: [
-          { text: 'docker', link: '/pages/f305c4/' }
+          { text: 'github', link: '/pages/4c778760be26d8b3/' },
+          { text: 'docker', link: '/pages/f305c4/' },
+          { text: 'mysql', link: '/pages/f6ba4a/' },
         ],
       },
       {
