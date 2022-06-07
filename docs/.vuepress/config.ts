@@ -154,7 +154,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
     // 博主信息 (显示在首页侧边栏)
     blogger: {
-      avatar: 'https://portrait.gitee.com/uploads/avatars/user/1898/5695627_liaoyicode_1653463331.png!avatar200',
+      avatar: 'https://raw.githubusercontent.com/turleft/img/main/blog/123.jpeg',
       name: 'TURLEFT',
       slogan: '不掉发的IT民工',
     },
